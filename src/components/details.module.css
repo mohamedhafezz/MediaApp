@@ -1,0 +1,43 @@
+.details{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.detailsBox{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.textDetails{
+    text-align: start;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #333333;
+    border-radius: 8px;
+}
+
+.detailsBox img{
+    border-radius: 4px;
+    margin: auto;
+}
+body{
+    background-color: #222222;
+}
+.detailsWraper{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trailer{
+    margin-top: 20px;
+}
+.contentTitle{
+    margin: auto;
+    color: #333333;
+}

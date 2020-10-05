@@ -1,0 +1,97 @@
+.navbar{
+  background-color: #e57373;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbarWrapper{
+  margin: auto;
+  width: 85%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right{
+  background-color:#e57373;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.right button:hover{
+  background-color:#555555;
+}
+
+.navBtn{
+  border: none;
+  outline: none;
+  padding: 15px 15px;
+  background-color: #e57373;
+  color: white;
+  margin: 0px;
+  font-size: 16px;
+  height: 53px;
+  cursor: pointer;
+}
+
+.brandlogo{
+  font-size: 22px;
+  width: 180px;
+  font-weight: 600;
+  text-align: left;
+  padding: 0px;
+}
+
+.dropdownContnet{
+  position: absolute;
+  display: none;
+  width: 160px;
+  font-size: 20px;
+}
+
+
+.dropdown:hover .dropdownContnet{
+  display: block;
+}
+
+.dropdownContnet button{
+  width: 120px;
+  background-color: #333333;
+}
+.searchForm{
+  margin: auto 0px;
+}
+
+.searchSelect{
+  border-radius: 4px;
+  height: 22px;
+  background-color: #333333;
+  color: azure;
+  border: none;
+  outline: none;
+}
+
+.serachInput{
+  height: 20px;
+  font-size: 16px;
+  border: none;
+  margin: auto 0px auto 5px;
+  border-bottom-left-radius:4px ;
+  border-top-left-radius: 4px;
+  outline: none;
+}
+
+
+
+.searchBtn{
+  height: 22px;
+  margin: auto 5px auto 0px;
+  background-color: #333333;
+  color: azure;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-bottom-right-radius:4px ;
+  border-top-right-radius: 4px;
+}

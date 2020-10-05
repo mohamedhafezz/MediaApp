@@ -1,0 +1,26 @@
+.tile{
+    width: 185px;
+    margin: 10px auto ;
+    box-shadow: 0 2px 5px #ccc;
+    height: 278px;
+    border-radius: 4px;
+}
+
+
+.tile h1{
+    size:1em;
+    margin-bottom: 6px;
+}
+
+.popUpBox{
+    display: none;
+    position: relative;
+    bottom: 150px;
+    border-radius: 8px;
+}
+.dropON:hover .popUpBox{
+    display: block;
+}
+.contentDetails{
+    text-align: left;
+}

@@ -1,0 +1,50 @@
+.snippet {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 350px;   
+}
+
+.snippet .trailer{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.detailsBox1{
+    text-align: start;
+    padding: 10px;
+    background-color: #e57373;
+    display: flex;
+    justify-content: space-between;
+}
+.detailsBox1 p{
+    margin: 0px;
+}
+
+
+.detailsBox2{
+    text-align: start;
+    padding: 10px;
+    background-color: #e57373;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-top: 0px;
+}
+.detailsBox2 p{
+    margin: 0px;
+}
+
+
+
+.infoBtn{
+    background-color: #333333 ;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: azure;
+    border-radius: 4px;
+    cursor: pointer;
+}
