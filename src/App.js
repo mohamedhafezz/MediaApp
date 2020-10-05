@@ -1,7 +1,7 @@
 import React from 'react';
 import Movies from './components/Movies';
 import Navbars from './components/Navbar'
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {HashRouter, Route, Switch} from 'react-router-dom'
 import About from './components/About';
 import Series from './components/Series'
 import Home from './components/Home';
@@ -11,7 +11,7 @@ import Details from './components/Details';
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
         <div className="App">
           <header className="App-header">
           {/* <Navbars /> */}
@@ -26,7 +26,7 @@ function App() {
           </Switch>
           </header>
         </div>
-    </BrowserRouter>
+    </HashRouter>
     
   );
 }
